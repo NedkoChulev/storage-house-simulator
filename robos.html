@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Robos</title>
+
+	<link rel="stylesheet" type="text/css" href="robo-css.css">
+</head>
+<body>
+	<div class="main">
+		<div class="goals">
+			<div><span>1</span><progress value="0" max="100"></progress></div>
+			<div><span>2</span><progress value="0" max="100"></progress></div>
+			<div><span>3</span><progress value="0" max="100"></progress></div>
+			<div><span>4</span><progress value="0" max="100"></progress></div>
+			<div><span>5</span><progress value="0" max="100"></progress></div>
+			<div><span>6</span><progress value="0" max="100"></progress></div>
+			<div><span>7</span><progress value="0" max="100"></progress></div>
+			<div><span>8</span><progress value="0" max="100"></progress></div>
+			<div><span>9</span><progress value="0" max="100"></progress></div>
+			<div><span>10</span><progress value="0" max="100"></progress></div>
+			<div><span>11</span><progress value="0" max="100"></progress></div>
+			<div><span>12</span><progress value="0" max="100"></progress></div>
+			<div><span>13</span><progress value="0" max="100"></progress></div>
+			<div><span>14</span><progress value="0" max="100"></progress></div>
+			<div><span>15</span><progress value="0" max="100"></progress></div>
+			<div><span>16</span><progress value="0" max="100"></progress></div>
+		</div>
+		<div>
+			<canvas width="1000" height="800" id="canvas">
+				Seems like your browser is shitty - download something better, darling.
+			</canvas>
+		</div>
+		<div class="goals">
+			<div><progress value="0" max="100"></progress><span>17</span></div>
+			<div><progress value="0" max="100"></progress><span>18</span></div>
+			<div><progress value="0" max="100"></progress><span>19</span></div>
+			<div><progress value="0" max="100"></progress><span>20</span></div>
+			<div><progress value="0" max="100"></progress><span>21</span></div>
+			<div><progress value="0" max="100"></progress><span>22</span></div>
+			<div><progress value="0" max="100"></progress><span>23</span></div>
+			<div><progress value="0" max="100"></progress><span>24</span></div>
+			<div><progress value="0" max="100"></progress><span>25</span></div>
+			<div><progress value="0" max="100"></progress><span>26</span></div>
+			<div><progress value="0" max="100"></progress><span>27</span></div>
+			<div><progress value="0" max="100"></progress><span>28</span></div>
+			<div><progress value="0" max="100"></progress><span>29</span></div>
+			<div><progress value="0" max="100"></progress><span>30</span></div>
+			<div><progress value="0" max="100"></progress><span>31</span></div>
+			<div><progress value="0" max="100"></progress><span>32</span></div>
+		</div>
+		<div>
+		</div>
+		<div class="menu">
+			<button onclick="callRobot(0, this)">#1</button>
+			<button onclick="callRobot(1, this)">#2</button>
+			<button onclick="callRobot(2, this)">#3</button>
+			<button onclick="callRobot(3, this)">#4</button>
+			<button onclick="callRobot(4, this)">#5</button>
+			<button onclick="callRobot(5, this)">#6</button>
+			<button onclick="callRobot(6, this)">#7</button>
+			<button onclick="callRobot(7, this)">#8</button>
+			<button onclick="callRobot(8, this)">#9</button>
+			<button onclick="callRobot(9, this)">#10</button>
+			<button onclick="callRobot(10, this)">#11</button>
+			<button onclick="callRobot(11, this)">#12</button>
+			<button onclick="callRobot(12, this)">#13</button>
+			<button onclick="callRobot(13, this)">#14</button>
+			<button onclick="callRobot(14, this)">#15</button>
+			<button onclick="callRobot(15, this)">#16</button>
+			<button onclick="callRobot(16, this)">#17</button>
+			<button onclick="callRobot(17, this)">#18</button>
+			<button onclick="callRobot(18, this)">#19</button>
+			<button onclick="callRobot(19, this)">#20</button>
+		</div>
+		<div>
+		</div>
+				<div></div>
+		<div class="counters">
+			<span>0</span>
+			<span>0</span>
+			<span>0</span>
+			<span>0</span>
+			<span>0</span>
+			<span>0</span>
+			<span>0</span>
+			<span>0</span>
+			<span>0</span>
+			<span>0</span>
+			<span>0</span>
+			<span>0</span>
+			<span>0</span>
+			<span>0</span>
+			<span>0</span>
+			<span>0</span>
+			<span>0</span>
+			<span>0</span>
+			<span>0</span>
+			<span>0</span>
+		</div>
+		<div></div>
+		<div></div>
+		<div class="counters">
+			<span>#1</span>
+			<span>#2</span>
+			<span>#3</span>
+			<span>#4</span>
+			<span>#5</span>
+			<span>#6</span>
+			<span>#7</span>
+			<span>#8</span>
+			<span>#9</span>
+			<span>#10</span>
+			<span>#11</span>
+			<span>#12</span>
+			<span>#13</span>
+			<span>#14</span>
+			<span>#15</span>
+			<span>#16</span>
+			<span>#17</span>
+			<span>#18</span>
+			<span>#19</span>
+			<span>#20</span>
+		</div>
+		<div></div>
+	</div>
+
+	<div class="control-panel">
+		<h2>Control Panel</h2>
+		<button onclick="callAllRobots()">Call All</button>
+		<button onclick="toggleGrid()">Toggle Grid</button>
+	</div>
+
+	<script type="text/javascript" src="robo-js.js"></script>
+</body>
+</html>

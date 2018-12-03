@@ -1,0 +1,83 @@
+body {
+	width: 99%;
+	height: 100%;
+	background-color: #565c66;
+}
+
+.main {
+	width: 1000px;
+	height: 800px;
+	margin: auto;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+
+.menu {
+	width: 1000px;
+	height: 50px;
+	margin: 0;
+	padding: 0;
+}
+
+.menu button {
+	width: 50px;
+	height: 50px;
+	margin: 0;
+	padding: 0;
+	float: left;
+	background-color: #e8bc45;
+	border: 1px solid #382d12;
+}
+
+.goals {
+	height: 800px;
+	width: 152px;
+}
+
+.goals progress {
+	display: inline-block;
+	width: 100px;
+	margin: 0 1px 0 1px;
+}
+
+.goals span {
+	display: inline-block;
+	height: 48px;
+	width: 48px;
+	background-color: #5573cc;
+	border:1px solid #5573cc;
+	text-align: center;
+	font-family: Arial;
+	font-size: 25px;
+	line-height: 40px;
+}
+
+.counters span {
+	display: inline-block;
+	float: left;
+	padding: 0;
+	margin: 0;
+	width: 48px;
+	height: 20px;
+	border: 1px solid black;
+	text-align: center;
+}
+
+.control-panel {
+	position: absolute;
+	left: 1%;
+	top: 5%;
+	border: 1px solid black;
+	font-family: arial;
+	padding: 10px 10px 10px 10px;
+	background-color: #e8bc45;
+}
+
+.control-panel button {
+	display: block;
+	padding: 10px 10px 10px 10px;
+	width: 100%;
+	background-color: white;
+	border: 1px solid black;
+	margin-top: 2px;
+}
